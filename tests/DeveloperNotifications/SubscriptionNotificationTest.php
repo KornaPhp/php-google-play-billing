@@ -22,6 +22,7 @@ class SubscriptionNotificationTest extends TestCase
         SubscriptionNotification::SUBSCRIPTION_PAUSE_SCHEDULE_CHANGED,
         SubscriptionNotification::SUBSCRIPTION_REVOKED,
         SubscriptionNotification::SUBSCRIPTION_EXPIRED,
+        SubscriptionNotification::SUBSCRIPTION_PENDING_PURCHASE_CANCELED,
     ];
 
     /**

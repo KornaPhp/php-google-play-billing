@@ -8,7 +8,7 @@ use Imdhemy\GooglePlay\DeveloperNotifications\Contracts\NotificationPayload;
  * SubscriptionNotification Class
  * Subscription notification
  * {@link https://developer.android.com/google/play/billing/integrate}
- * {@https://developer.android.com/google/play/billing/rtdn-reference#sub}.
+ * {@link https://developer.android.com/google/play/billing/rtdn-reference#sub}.
  */
 class SubscriptionNotification implements NotificationPayload
 {
@@ -25,6 +25,7 @@ class SubscriptionNotification implements NotificationPayload
     public const SUBSCRIPTION_PAUSE_SCHEDULE_CHANGED = 11;
     public const SUBSCRIPTION_REVOKED = 12;
     public const SUBSCRIPTION_EXPIRED = 13;
+    public const SUBSCRIPTION_PENDING_PURCHASE_CANCELED = 20;
 
     /**
      * @var string
